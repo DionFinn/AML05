@@ -1,0 +1,27 @@
+Lab 5. Transfer Learning
+Overview
+This lab focuses on a multi-class image classification task. You are required to apply transfer learning
+techniques to solve the problem.
+Dataset
+We will use the Kaggle dataset titled "Deep Learning Practice - Image Classification":
+https://drive.google.com/drive/folders/1dwGzQwooU4PT642faBxBj_CS6OB_FiFE
+The dataset contains two folders:
+• train: 10,000 images across 10 classes (1,000 images per class)
+• test: unlabeled images (not used in this lab)
+For this lab, only the train folder is used. You must split it into training and validation sets (eg. 80/20
+split).
+Model
+Build an image classification model using a pre-trained network, implementing two approaches:
+• Feature Extraction: Freeze the base model, and train only the newly added classification layers
+• Fine-Tuning: Unfreeze some of the top layers of the base model, and continue training the model
+Compare both methods in terms of accuracy and training time.
+2
+Internal
+Report
+Create a short report (1 page) including:
+• The pre-trained model used
+• Your model architecture diagram
+• A comparison of feature extraction vs fine-tuning results
+Submission
+Submit your source code and report via Canvas and demonstrate your work to the tutor during the
+lab session.
